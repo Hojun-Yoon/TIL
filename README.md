@@ -55,3 +55,20 @@ Object.hasOwnProperty('prop') // return Boolean
 * 이벤트를 내보내는 모든 객체는 Eventemitter 클래스의 인스턴스, On 메소드 사용 가능
 - Http 모듈에서 서버 생성, 응답 시 response 는 EventEmitter 클래스를 상속한 객체로
 on 메소드 사용 가능
+
+
+2019년 10월 9일
+----------
+
+ㅇ 여러 개의 마이크로 서비스로 구성된 서버사이드, React 이용한 Single Page App 으로
+서비스 구성 시 CORS 이슈에 직면하게됨
+
+ㅇ CORS : Cross Origin Resource Sharing / 해당 페이지를 제공한 서버가 아닌
+다른 서버의 자원을 호출하는 것을 의미
+
+ㅇ client 의 일반적인 요청이 아닌 경우, 리소스 보관 서버에 preflighted 요청을 보냄
+preflighted 요청은 특별한 요청으로 method = options 로 전송
+
+ㅇ response 의 writeHead 메소드 : 상태코드 와 헤더를 모두 작성한다. 
+
+ㅇ CORS 이슈에 대해 각 브라우저는 정의가 되어 있고, 대응이 가능함.
