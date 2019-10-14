@@ -127,3 +127,6 @@ var depthFilter = function (filterDepth) {
 };
 ```
 이런 것을 통해 두 함수 내에 인자의 값이 같은 지 확인할 수 있음.
+
+
+ㅇ 프로미스 내 resolve (value) 를 통해 다음 .then 의 인자로 value 를 전달할 수 있다.
