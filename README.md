@@ -118,7 +118,12 @@ Request 를 사용한다. ReadableStream 인터페이스 구현하기 때문에,
 
 2019년 10월 14일
 ----------
-ㅇ 
+ㅇ 코드 패턴 익히기
 ```js
-
+var depthFilter = function (filterDepth) {
+  return function(node, nodeDepth) {
+    return filterDepth === nodeDepth;  
+  };
+};
 ```
+이런 것을 통해 두 함수 내에 인자의 값이 같은 지 확인할 수 있음.
