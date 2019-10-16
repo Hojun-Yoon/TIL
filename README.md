@@ -142,3 +142,14 @@ Express 애플리케이션은 일련의 미들웨어 함수 호출이다.
 그 다음 미들웨어 함수에 대한 엑세스 권한을 갖는 함수
 
 ㅇ app.use() 또는 app.method() 함수를 이용해 미들웨어를 바인딩 시킨다. 
+
+2019년 10월 16일
+-------
+ㅇ server 에서 controllers, db, models 로 구분되는 것
+
+ㅇ db 에서 connection 을 만들어주었다면, 이를 module.exports 를 통해 외부로 보냄
+
+ㅇ 이것을 require 로 받아올 수 있음.
+
+ㅇ Express 는 비동기 기능을 제공하고 있어, Promise 를 통해 통신의 요청과 응답을
+통해 대응할 수 있다. 
