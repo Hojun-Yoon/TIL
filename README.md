@@ -181,3 +181,25 @@ response header 에 포함시켜 반환한다.
 - 서버에서는 쿠키를 받아 세션 저장소에서 검증한 후 요청에 해당하는 데이터를 반환한다.
 
 
+2019년 10월 19일
+----------------
+
+ㅇ git repository 올리는 이슈와 관련 환경변수를 사용할 수 있다. (.env)
+
+ㅇ npm install --save dotenv
+
+ㅇ 프로젝트 루트경로에 .env 파일 생성하고 다음과 같이 작성 (변수명 = 값)
+- SERVER_PORT = 3000
+- DB_HOST = localhost
+- DB_USER = root
+- DB_PASSWORD = password
+
+ㅇ 프로젝트 상단에 환경 변수 불러옴
+- require('dotenv').config()
+
+ㅇ 아래와 같이 사용
+- db.connect ({
+  host : process.env.DB_HOST,
+  username : process.env.DB_USER,
+  password : process.env.DB_PASSWORD
+}); //DB 연결 예제
