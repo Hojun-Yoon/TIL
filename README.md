@@ -203,3 +203,24 @@ response header 에 포함시켜 반환한다.
   username : process.env.DB_USER,
   password : process.env.DB_PASSWORD
 }); //DB 연결 예제
+
+
+2019년 10월 20일
+-----------
+
+ㅇ setTimeout 함수 
+- 첫번 째 인자 : 함수(promise 의 resolve, reject 포함) 또는 문자열이 들어갈 수 있다.
+- 두번 째 인자 : 기다려야 할 ms 단위의 시간, 생략하면 0으로 인식
+- 세번 째 인자 : 타이머가 만료되고 func 에 전달되는 추가적인 매개변수
+
+ㅇ Promise.all 기능
+- Array 와 같이 순회 가능한 객체를 입력받을 수 있음.
+1. 프로미스 객체의 resolve 인자로 들어간 그 값을 불러올 수 있다.
+
+2. 숫자 및 문자열도 요소로 쓰일 수 있다.
+
+3. 생성된 프로미스 인스턴스를 통해 resolve 함수의 인자값을 리턴해줄 수 있다.
+
+- 순회 가능한 객체가 비어있는 경우에만 동기적으로 이행 / 나머지는 비동기적으로 실행
+
+- then 을 통해 Pending 상태의 promise 가 실행된다.
