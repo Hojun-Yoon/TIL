@@ -302,3 +302,20 @@ key 설정이 필요한데, 해당 페이지에서 사용할 때는 key를 어�
 ㅇ Client 및 Server 구조 디자인
 
 ㅇ API 명세서, Git rules, Task 
+
+
+2019년 10월 30일
+------
+
+ㅇ 엔지니어는 커뮤니케이션을 잘하는 사람.
+
+ㅇ 설치 모듈 다운그레이드 하는 방법
+- npm install node@<version>
+- 안 될 경우 글로벌로
+  npm install -g npm@<version>
+  npm install -g node@8.10.0
+  
+ㅇ 브랜치로 파일을 생성했을 경우에는
+클론할 때도 브랜치 이름을 일치시켜야 한다.(중요)
+
+- git clone -b <브랜치 명> 깃 주소
