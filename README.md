@@ -326,3 +326,15 @@ key 설정이 필요한데, 해당 페이지에서 사용할 때는 key를 어�
 ㅇ .env 파일을 github 으로 푸시하는 것은 피해야 함. 
 
 ㅇ Node.js 는 사용자가 사용할 수 있는 모든 환경변수를 포함하는 전역변수 process.env 
+
+
+2019년 11월 1일
+-------------
+
+ㅇ db 한글(utf-8)로 설정 바꾸는 방법
+show create table Concerts; // latin 으로 되어있지 않은 지 확인
+alter table Concerts convert to character set utf8;
+
+ㅇ 브랜치를 만들어서 관리하고 있다면, 
+ec2 서버에서 git clone -b <브랜치 명> 깃 주소로 입력하면 된다.
+
