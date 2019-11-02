@@ -338,3 +338,13 @@ alter table Concerts convert to character set utf8;
 ㅇ 브랜치를 만들어서 관리하고 있다면, 
 ec2 서버에서 git clone -b <브랜치 명> 깃 주소로 입력하면 된다.
 
+
+2019년 11월 2일
+----------
+
+ㅇ Express 라우트 분기의 경우 동적인 값을 사용할 때는 '/:id(eg)' 으로 구분하고 req.params 로 
+받아옵니다. 흔히 알고 있는 쿼리 스트링(?id = 12)은 일반 스트링 변수에서 사용할 수 있는 것으로 보입니다.
+
+ㅇ 시퀄라이즈 조인을 위해서는 find 중첩은 Syntax 에러로 오류를 내고, association 을 사용해야 합니다.
+N : N 의 경우 두 테이블에서 belongsTomany 사용하고 연결해주는 테이블에서는 belongsto 를 사용합니다.  
+
