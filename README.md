@@ -476,3 +476,9 @@ emit 을 해야 한다.
 ㅇ git push origin dev --force 는 이전에 올렸던 파일들을 무시하고 업로드가 가능하다.
 
 ㅇ {} 는 JSX 에서 자바스크립트 변수(객체)를 사용할 때 사용하는 문법이다. 
+
+2019년 11월 19일
+---------------
+ㅇ navigation prop 은 stack navigator 의 모든 screen component 에 전달됨.
+
+ㅇ gradle 파일 빌드를 위해서는 react-native start 의 서버 가동이 필요하다. 
