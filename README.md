@@ -482,3 +482,14 @@ emit 을 해야 한다.
 ㅇ navigation prop 은 stack navigator 의 모든 screen component 에 전달됨.
 
 ㅇ gradle 파일 빌드를 위해서는 react-native start 의 서버 가동이 필요하다. 
+
+2019년 11월 20일
+---------------
+ㅇ Bundle 은 클래스다. 여러가지 타입의 값을 저장하는 Map 클래스
+
+ㅇ Android 에서는 Activity 간 데이터를 주고 받을 때 Bundle 클래스를 사용하여 데이터를 전송
+
+ㅇ Bundle 의 다른 용도는 Activity 생성할 때 Bundle savedInstanceState 객체를 가지고 와서
+액티비티를 중단할 때 savedInstanceState 메서드를 호출하여 임시적으로 데이터를 저장한다.
+
+
