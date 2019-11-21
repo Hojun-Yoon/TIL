@@ -492,4 +492,17 @@ emit 을 해야 한다.
 ㅇ Bundle 의 다른 용도는 Activity 생성할 때 Bundle savedInstanceState 객체를 가지고 와서
 액티비티를 중단할 때 savedInstanceState 메서드를 호출하여 임시적으로 데이터를 저장한다.
 
+2019년 11월 21일
+------------
+ㅇ 빌드 및 번들 캐시 데이터로 인한 오류 시 조치 방법
+- bundle 삭제 
+* rm android/app/src/main/assets/index.android.bundle
 
+- bundle 생성
+* react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+- 빌드 관련 gradle 로그 삭제 & 빌드 
+* ./gradlew clean && ./gradlew assembleRelease
+
+- 안드로이드 앱 구동
+* react-native run-android --variant=release
