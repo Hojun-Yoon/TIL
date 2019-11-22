@@ -506,3 +506,10 @@ emit 을 해야 한다.
 
 - 안드로이드 앱 구동
 * react-native run-android --variant=release
+
+2019년 11월 22일
+----------------
+
+ㅇ Proguard를 활성화하여 APK 의 크기를 줄이는 방법은 android/app/build.gradle에서 enableProguardInReleaseBuilds 를 false(샘플이미지)에서 true로 변경한다.
+
+ㅇ React-native run-android –variant=release 는 서명을 설정한 경우에만 사용할 수 있다.
