@@ -521,3 +521,10 @@ emit 을 해야 한다.
 
 ㅇ react-native log-android 명령어로 console.log 등의 로그 확인
 
+2019년 11월 24일
+-------------
+
+ㅇ 배경 이미지를 지정할 때 ImageBackground 태그 사용
+
+ㅇ 중첩 삼항 연산자 관련해서 조건문 ? A : 조건문 ? B : ... 조건문의 나열으로 Switch case 의 효과를 줄 수 있습니다.
+
