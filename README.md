@@ -533,3 +533,11 @@ emit 을 해야 한다.
 ㅇ 블로깅을 통해 얻는 것보다 공식문서를 더 정확히 보는 연습을 하자.
 
 ㅇ bashrc 설정이 제대로 되어 있지 않았고, init 초기 개발환경도 제대로 잡혀있지 않았음.
+
+2019년 11월 26일
+-----------------
+ㅇ react native init 으로 새로 프로젝트 생성, 환경변수 재설정, 렌더링 확인
+
+ㅇ fontWeight : 'bold' , native base 이용한 페이지 구성은 편리함.
+
+ㅇ 페이지 제작을 위해서 npm install react-native-table-component 모듈 
