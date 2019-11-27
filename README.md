@@ -541,3 +541,7 @@ emit 을 해야 한다.
 ㅇ fontWeight : 'bold' , native base 이용한 페이지 구성은 편리함.
 
 ㅇ 페이지 제작을 위해서 npm install react-native-table-component 모듈 
+
+2019년 11월 27일
+---------------------
+ㅇ 알림창 꾸며주는 모듈 $ npm i react-native-awesome-alerts --save
