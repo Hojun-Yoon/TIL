@@ -545,3 +545,8 @@ emit 을 해야 한다.
 2019년 11월 27일
 ---------------------
 ㅇ 알림창 꾸며주는 모듈 $ npm i react-native-awesome-alerts --save
+
+2019년 11월 28일
+---------------
+ㅇ navigation 모듈 기능에는 header Mode float 을 주고, navigationOptions 를 설정을 통해
+헤더를 공통으로 적용할 수 있는 기능이 있다. 
