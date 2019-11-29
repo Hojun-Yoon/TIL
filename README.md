@@ -550,3 +550,12 @@ emit 을 해야 한다.
 ---------------
 ㅇ navigation 모듈 기능에는 header Mode float 을 주고, navigationOptions 를 설정을 통해
 헤더를 공통으로 적용할 수 있는 기능이 있다. 
+
+2019년 11월 29일
+---------------
+
+ㅇ react native export default 로 하면 괄호 없이 import 할 수 있다.
+
+ㅇ default 없이 export 했을 때, 괄호를 이용해서 import 시켜야 한다. 
+
+ㅇ 두 개 이상의 패키지에서 이름이 겹치는 경우 as 를 사용하면 변수명을 변경할 수 있다. 
