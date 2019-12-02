@@ -570,3 +570,10 @@ emit 을 해야 한다.
 ㅇ JSX 문법에서 특수문자를 사용하려면, 엔티티 코드를 사용해야 함.
 
 ㅇ onPress 클릭이벤트와 navigation을 이용해서 페이지를 전환할 때에는 에로우 펑션을 사용한다. 
+
+
+2019년 12월 2일
+----------------
+ㅇ navigation 으로 연결하려면, stackNavigator로 묶어주는 것도 중요하지만 자식-부모 구성요소로 연결되어 있는 경우
+navigation={this.props.navigation} 으로 전달하는 것이 중요하다.
+
