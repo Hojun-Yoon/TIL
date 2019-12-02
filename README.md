@@ -577,3 +577,4 @@ emit 을 해야 한다.
 ㅇ navigation 으로 연결하려면, stackNavigator로 묶어주는 것도 중요하지만 자식-부모 구성요소로 연결되어 있는 경우
 navigation={this.props.navigation} 으로 전달하는 것이 중요하다.
 
+ㅇ this.state 내에서 정의하고 있는 요소(는 this.state 내에서 미리 사용할 수 없다. 
