@@ -578,3 +578,8 @@ emit 을 해야 한다.
 navigation={this.props.navigation} 으로 전달하는 것이 중요하다.
 
 ㅇ this.state 내에서 정의하고 있는 요소(는 this.state 내에서 미리 사용할 수 없다. 
+
+2019년 12월 3일
+---------------
+ㅇ react 는 state 원형이 보존되기 때문에 직접 수정할 수 없고, map, filter, concat 등과
+setState 를 이용해서 값을 수정할 수 있다.
