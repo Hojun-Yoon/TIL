@@ -583,3 +583,6 @@ navigation={this.props.navigation} 으로 전달하는 것이 중요하다.
 ---------------
 ㅇ react 는 state 원형이 보존되기 때문에 직접 수정할 수 없고, map, filter, concat 등과
 setState 를 이용해서 값을 수정할 수 있다.
+
+ㅇ Fetch Get 요청은 default 값이니까, Promise 특성을 이해하고 then 메소드를 이용해서 json() 타입으로 변환하여
+데이터에 접근할 수 있다.
