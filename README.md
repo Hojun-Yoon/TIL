@@ -602,3 +602,15 @@ setState 를 이용해서 값을 수정할 수 있다.
 ------------------
 ㅇ 네비게이션에서 페이지가 시작되는 시작페이지는 페이지가 전환되도 unmount 되지 않는 특성이 있어서 lifecycle 컨트롤 할 수 있는
 이벤트 리스너를 사용해서 다시 메인페이지로 돌아왔을 경우를 컨트롤 해주면 된다. 
+
+2019년 12월 6일
+----------------
+
+ㅇ react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+-> 이 명령어는 apk 파일 생성을 위해 개발자 모드를 끄고 번들 파일을 만들어주는 것이고,
+
+ㅇ ./gradlew clean && ./gradlew assembleRelease
+
+-> 이 명령어는 릴리즈 버전의 apk 파일을 생성해주는 것이다.
+
