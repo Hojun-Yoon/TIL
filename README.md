@@ -649,3 +649,6 @@ setState 를 이용해서 값을 수정할 수 있다.
 2019년 12월 17일
 --------------
 ㅇ 리덕스에서 state 관리를 위해 외부에서 store 를 새로 만들어주었다. 
+
+ㅇ 초기 state 값이 Object 이라면 state 값이 action.type 에 따라 달라지는 리듀서 함수에서는 해당 Object state 값을 바꿔주기
+위해서 Deep Copy 를 해야한다. 
