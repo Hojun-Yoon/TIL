@@ -654,3 +654,14 @@ setState 를 이용해서 값을 수정할 수 있다.
 위해서 Deep Copy 를 해야한다. 
 
 ㅇ store 값이 바뀔 때마다 subscribe() 메소드를 사용하면, 변경된 값을 확인할 수 있다. 
+
+2019년 12월 18일
+----------------
+ㅇ react-redux : redux를 react 에서 더 편하게 사용하기 위한 모듈
+- provider : store 를 하위 컴포넌트에 쉽게 전달하기 위해서
+- connect : connect 함수의 결과 값이 함수로 나오는 것, 해당 class app 을 state 접근하기 쉽게 만들어주는 것, 2개의 인자를 받는다.
+(mapStateToProps - 변화된 state를 화면에 표시해주기 위해, mapDispatchToProps - 액션이 있는 경우)
+
+ㅇ redux 사용할 때, 무슨 일이 일어나는 지 확인하기 위해서 redux-logger 를 사용한다. (redux 모듈의 applyMiddleware 와 사용됨.)
+- 액션이 발생할 때마다 로그를 확인할 수 있다. 
+ 
