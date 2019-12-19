@@ -665,3 +665,22 @@ setState 를 이용해서 값을 수정할 수 있다.
 ㅇ redux 사용할 때, 무슨 일이 일어나는 지 확인하기 위해서 redux-logger 를 사용한다. (redux 모듈의 applyMiddleware 와 사용됨.)
 - 액션이 발생할 때마다 로그를 확인할 수 있다. 
  
+2019년 12월 19일
+---------------
+ㅇ react dnd : 서로 다른 부분 간에 데이터 전송. 드래그 앤 드롭 이벤트에 따라 모양과
+응용 프로그램 상태를 변경하는 것을 직접 제어하도록 도와주는 라이브러리.
+
+ㅇ hashRouter : Hash(#) 로 동작하는 라우터
+
+ㅇ const props = {className: "food", onClick: () => {}};
+const child = <span>Hello World!</span>
+React.createElement(div, props, child)
+
+ㅇ <div className="food" onclick={() => {}}>
+  <span>Hello World!</span>
+</div> 
+
+ㅇ 위 아래는 동일한 것!
+
+ㅇ React createContext : Context 객체를 만들 수 있다. Provider 를 이용하여 Context 변경사항을
+자손에게 제공할 수 있다. 
