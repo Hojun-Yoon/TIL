@@ -684,3 +684,15 @@ React.createElement(div, props, child)
 
 ㅇ React createContext : Context 객체를 만들 수 있다. Provider 를 이용하여 Context 변경사항을
 자손에게 제공할 수 있다. 
+
+2019년 12월 20일
+--------------
+ㅇ react propType : 타입 체크하는 하나의 방법(cf. flow / Typescript : 어플리케이션 전체에서 타입 체크하는 방법)
+- 빌트인 타입 체킹 / 개발모드에서만 사용
+- 유효하지 않은 값이 전달되면 콘솔에 경고
+
+ㅇ redux 액션을 더욱 쉽게 관리할 수 있게 해주는 redux-actions
+- createAction 과 handleAction 이 있다. 
+- 액션이 갖고 있는 변수를 payload 등으로 통일해서 액션 생성하는 것을 자동화할 수 있다.
+- 리듀서 액션 type 에 따라 다른 작업을 하기 위해 switch 문을 사용하는 것은 리듀서 함수 scope 로 제한되어 있었음.
+이를 극복하게 해주는 것이 handleAction 임.
