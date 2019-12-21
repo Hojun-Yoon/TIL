@@ -696,3 +696,10 @@ React.createElement(div, props, child)
 - 액션이 갖고 있는 변수를 payload 등으로 통일해서 액션 생성하는 것을 자동화할 수 있다.
 - 리듀서 액션 type 에 따라 다른 작업을 하기 위해 switch 문을 사용하는 것은 리듀서 함수 scope 로 제한되어 있었음.
 이를 극복하게 해주는 것이 handleAction 임.
+
+2019년 12월 21일
+----------------
+ㅇ 리듀서 함수는 action 이 실행되는 곳.
+
+ㅇ combineReducers 헬퍼 함수는 서로 다른 리듀싱 함수를 값으로 가지는 객체를 받아서 createStore 에 넘길 수 있는 하나의 리듀싱 함수로
+바꿔주는 것.
