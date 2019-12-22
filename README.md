@@ -703,3 +703,25 @@ React.createElement(div, props, child)
 
 ㅇ combineReducers 헬퍼 함수는 서로 다른 리듀싱 함수를 값으로 가지는 객체를 받아서 createStore 에 넘길 수 있는 하나의 리듀싱 함수로
 바꿔주는 것.
+
+2019년 12월 22일
+--------------
+ㅇ scss 는 css 구문과 완전히 호환되도록 도입된 'sass' 모든 기능을 지원하는 css 의 상위 집합이다.
+- scss 는 css 와 거의 같은 문법으로 sass 기능을 지원한다는 말
+- scss 는 css 로 컴파일해야 웹에서 동작할 수 있음 (npm 모듈 node-sass 를 설치해야 함.)
+
+ㅇ markdown 용법을 사용할 수 있는 'marked' 모듈
+
+ㅇ math.sign() 는 어떤 수의 부호를 반환한다. / 양수, 음수, 0인지를 나타낸다.
+
+ㅇ 리액트 개발할 때 DOM 에 접근해야할 때가 있음. 이 때 ref 를 사용
+- Input / textarea 등에 포커스해야할 때
+- 특정 dom 의 크기를 가져올 때
+- 특정 dom 에서 스크롤 위치를 가져오거나 설정을 할 때
+- 외부 라이브러리 (차트) 등을 사용할 때 
+
+ㅇ withRouter 고차원 컴포넌트를 통해 history 객체의 속성과 가장 가까운 것의 match 액세스를 할 수 있다.
+- match, location, history 와 같은 props 로 경로가 바뀔 때마다 구성요소를 다시 렌더링한다.
+- 주로 history 에 접근하고 컴포넌트에서 라우터를 조작할 때 사용.
+
+ㅇ 값이 변화하는 것 catch => handleChange 로!
