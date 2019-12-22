@@ -725,3 +725,5 @@ React.createElement(div, props, child)
 - 주로 history 에 접근하고 컴포넌트에서 라우터를 조작할 때 사용.
 
 ㅇ 값이 변화하는 것 catch => handleChange 로!
+
+ㅇ input 이벤트 : onFocus (포커스 얻을 시), onBlur (포커스 잃을 시), onChange(교체 시), onSubmit (폼 보낼 시)
