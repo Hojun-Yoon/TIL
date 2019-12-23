@@ -727,3 +727,25 @@ React.createElement(div, props, child)
 ㅇ 값이 변화하는 것 catch => handleChange 로!
 
 ㅇ input 이벤트 : onFocus (포커스 얻을 시), onBlur (포커스 잃을 시), onChange(교체 시), onSubmit (폼 보낼 시)
+
+2019년 12월 23일
+--------------
+ㅇ event.stopPropagation()
+- propagation 은 전파라는 의미로 웹페이지에서 버튼을 눌렀을 때 버튼을 감싸고 있는 부모 태그들 또한 클릭 이벤트에 반응하게 된다. (Bubble Up)
+- stopPropagation 은 부모 태그로의 이벤트 전파를 stop 하라는 의미이다.
+
+ㅇ preventDefault
+- 클릭과 같은 이벤트가 브라우저에서 일어날 때 기타 다방면의 action 들이 취해진다고 했을 때, 이와 같은 별도의 행동을 막기 위해 사용된다.
+
+ㅇ redux action 이 가지는 기본 format
+- type : 액션의 종류를 식별할 수 있는 문자열
+- payload : 액션의 실행에 필요한 임의의 데이터
+
+ㅇ (참고) connect 된 Component 에서 action 이 dispatch 되면 reducer 함수를 향한다.
+
+ㅇ 비동기 처리를 위한 redux-saga
+- action 의 발생을 감시
+- 가져온 action 을 가지고 활용할 수 있다.
+- yield 의 결과를 다른 action 으로 보낼 수 있다.
+
+ㅇ if 문을 사용하지 않아도 && 를 이용해서 조건문처럼 사용할 수 있다. 
