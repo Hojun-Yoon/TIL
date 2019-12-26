@@ -775,3 +775,9 @@ React.createElement(div, props, child)
 - es6 버전 이상의 스크립트에서 사용할 수 있다.
 - style-loader, css-loader 로더를 사용해서 less, scss 를 사용할 수 있다. 
 
+2019년 12월 26일
+----------------
+ㅇ mapStateToProps 를 이용하면 스토어에서 전달받은 상태 트리를 컴포넌트에 전달하기 전에 원하는 형태로 가공할 수 있다.
+ㅇ mapDispatchToProps 는 리액트 컴포넌트에서 발생한 이벤트를 액션과 결합하여 스토어에 전달한다. 
+ㅇ Array.from() 은 유사배열 객체나 반복 가능한 객체를 얕게 복사해 새로운 Array 객체를 만든다.
+ㅇ mongoDB 설치 후 mongo 명령어로 실행 가능
