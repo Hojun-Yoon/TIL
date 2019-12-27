@@ -781,3 +781,14 @@ React.createElement(div, props, child)
 ㅇ mapDispatchToProps 는 리액트 컴포넌트에서 발생한 이벤트를 액션과 결합하여 스토어에 전달한다. 
 ㅇ Array.from() 은 유사배열 객체나 반복 가능한 객체를 얕게 복사해 새로운 Array 객체를 만든다.
 ㅇ mongoDB 설치 후 mongo 명령어로 실행 가능
+
+2019년 12월 27일
+---------------
+ㅇ webpack : 현대 자바스크립트 앱의 static module bundler 이다. 의존성 그래프를 통해 필요한 형태의 하나 또는 여러 개의
+bundle 로 생성한다.
+
+ㅇ bundle 이란 : 소프트웨어 및 일부 하드웨어와 함께 작동하는 데 필요한 모든 것을 포함하는 Package 이다.
+
+ㅇ ReactDOM.hydrate() : render()와 동일하지만 html 콘텐츠가 reactdomserver 로 렌더링 된 컨테이너에 이벤트를 보충하기 위해 사용
+
+ㅇ redux devtools extension : 리덕스의 상태 추적을 브라우저에서 할 수 있게 해주는 확장 모듈
