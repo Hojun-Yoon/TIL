@@ -792,3 +792,12 @@ bundle 로 생성한다.
 ㅇ ReactDOM.hydrate() : render()와 동일하지만 html 콘텐츠가 reactdomserver 로 렌더링 된 컨테이너에 이벤트를 보충하기 위해 사용
 
 ㅇ redux devtools extension : 리덕스의 상태 추적을 브라우저에서 할 수 있게 해주는 확장 모듈
+
+2019년 12월 28일
+--------------
+ㅇ db.테이블.find({}) / Collection 전체 검색 명령어입니다. 
+= select * from 테이블
+
+ㅇ mongoose 는 일부 내장 Node.js 모듈을 사용하므로
+webpack 에서 해당 모듈을 해결할 수 없다.
+(webpack mongoose error)
