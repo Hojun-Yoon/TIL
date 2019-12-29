@@ -801,3 +801,10 @@ bundle 로 생성한다.
 ㅇ mongoose 는 일부 내장 Node.js 모듈을 사용하므로
 webpack 에서 해당 모듈을 해결할 수 없다.
 (webpack mongoose error)
+
+2019년 12월 29일
+----------------
+ㅇ button 에 link 걸면 안됨. (독립적으로 Link 를 사용하자.)
+
+ㅇ redux-devtools-extension : 리덕스의 상태 추적을 
+브라우저에서 할 수 있게 해주는 확장모듈.
