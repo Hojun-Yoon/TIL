@@ -835,3 +835,10 @@ webpack 에서 해당 모듈을 해결할 수 없다.
 ㅇ withRouter 는 class 컴포넌트에서 사용되는 것.
 
 ㅇ reactstrap 사용 검토
+
+2019년 1월 2일
+--------------
+ㅇ shortid npm 모듈은 고유의 id 를 만들어주는 모듈.
+
+ㅇ 몽고 db 는 기본적으로 objectId 가 부여되기 때문에, 내가 원하는 Id 값 및 기타 정보를 db 에 입력하기 위해서
+replaceOne 명령어를 사용하였다.
