@@ -842,3 +842,23 @@ webpack 에서 해당 모듈을 해결할 수 없다.
 
 ㅇ 몽고 db 는 기본적으로 objectId 가 부여되기 때문에, 내가 원하는 Id 값 및 기타 정보를 db 에 입력하기 위해서
 replaceOne 명령어를 사용하였다.
+
+2019년 1월 3일
+--------------
+ㅇ 서버사이드 렌더링을 위한 Config file 수정
+- target : node,
+- externals : [nodeExternals()] / 추가 npm 설치 필요
+- output.libraryTarget : commonjs2
+- 노드 값 추가(필수적인 것은 아닌 것 같음)
+node: {
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty',
+    global: true
+}
+
+ㅇ package lock json 파일은 Npm 을 사용해서 node_modules 트리나 package.json 파일을 수정하게 되면 자동으로 생성된 파일이다. 
+- package-lock.json 파일은 의존성 트리에 대한 정보를 모두
+가지고 있습니다.
+- package-lock.json 파일은 저장소에 꼭 같이 커밋해야 하고
+- node-modules 없이 배포하는 경우 반드시 필요합니다.
