@@ -871,3 +871,5 @@ node: {
 - 서버 코드에서 session() : 세션 활성화
 - passport.initialize() // passport 구동
 - passport.session() // 세션 연결
+
+ㅇ app.use 로 서버에 연결되었을 때에는 if, else 모든 경우에 대해서 관리되어야 하고, next() 로 다음 분기로 넘겨주어야 한다.
