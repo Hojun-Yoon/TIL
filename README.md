@@ -862,3 +862,12 @@ node: {
 가지고 있습니다.
 - package-lock.json 파일은 저장소에 꼭 같이 커밋해야 하고
 - node-modules 없이 배포하는 경우 반드시 필요합니다.
+
+2019년 1월 4일
+-------------
+ㅇ 페이지 전환할 때 window.location.replace('/'); 활용 가능.
+
+ㅇ 로그인 인증을 위해서 passport 모듈 사용할 수 있음.
+- 서버 코드에서 session() : 세션 활성화
+- passport.initialize() // passport 구동
+- passport.session() // 세션 연결
