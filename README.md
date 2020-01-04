@@ -873,3 +873,9 @@ node: {
 - passport.session() // 세션 연결
 
 ㅇ app.use 로 서버에 연결되었을 때에는 if, else 모든 경우에 대해서 관리되어야 하고, next() 로 다음 분기로 넘겨주어야 한다.
+
+2019년 1월 5일
+---------------
+ㅇ passport serializeUser : Strategy 성공 시 호출, 콜백함수로 전달된 인자값이 deserializeUser 첫 번째 매개변수로 이동
+
+ㅇ passport deserializeUser : 위의 매개변수가 전달돼서 이 메소드의 콜백함수가 실행되는데, 이 매개변수가 req.user 가 됨!!
