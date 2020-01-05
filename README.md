@@ -879,3 +879,10 @@ node: {
 ㅇ passport serializeUser : Strategy 성공 시 호출, 콜백함수로 전달된 인자값이 deserializeUser 첫 번째 매개변수로 이동
 
 ㅇ passport deserializeUser : 위의 매개변수가 전달돼서 이 메소드의 콜백함수가 실행되는데, 이 매개변수가 req.user 가 됨!!
+
+2019년 1월 6일
+-------------
+ㅇ passport 몽고db 와 사용할 때 배열로써 요소에 접근하면, console.log 등 전반의 기능이 동작하지 않았음.
+또한, findOne / find 메소드로 두 개 이상의 요소를 검색할 수 있는 $and 키워드도 동작하지 않아서 하나씩 비교해주었음.
+
+ㅇ 서버 렌더링으로 터미널에서 console 확인 가능, 클라이언트 console 은 logger 를 연결시켜주었기 때문에 브라우저에서 확인 가능.
