@@ -886,3 +886,9 @@ node: {
 또한, findOne / find 메소드로 두 개 이상의 요소를 검색할 수 있는 $and 키워드도 동작하지 않아서 하나씩 비교해주었음.
 
 ㅇ 서버 렌더링으로 터미널에서 console 확인 가능, 클라이언트 console 은 logger 를 연결시켜주었기 때문에 브라우저에서 확인 가능.
+
+2019년 1월 7일
+---------------
+ㅇ input text 수정하지 못하게 하는 속성 : disabled="disabled"
+
+ㅇ 기타 정보 제공 기능으로 reactjs-popup 모듈 사용.
