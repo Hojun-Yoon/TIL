@@ -892,3 +892,10 @@ node: {
 ㅇ input text 수정하지 못하게 하는 속성 : disabled="disabled"
 
 ㅇ 기타 정보 제공 기능으로 reactjs-popup 모듈 사용.
+
+2019년 1월 9일
+--------------
+ㅇ iostream 은 c++ 에 있는 입출력을 위한 헤더 파일입니다.
+
+ㅇ gcc 란 C 컴파일러, 윈도우용으로 visual studio c++ 컴파일러로 역할을 담당하고, 우분투 build-essential 패키지 설치하면 됨.(gcc, g++ 
+컴파일에 필요한 패키지.)
